@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Avenir", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  position: relative;
+  padding-bottom: 10px;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-shadow: 0 0.125rem 0.25rem;
+}
+
+header .Icon {
+  width: 30;
+}
+
+header .Icon h2 {
+  width: 50px;
+}
+
+header .search-Icon {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+}
+header .search-Icon .search {
+  flex-basis: 40%;
+  position: relative;
+}
+header .search-Icon .search input {
+  background-color: dimgray;
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: 100%;
+  border: 0;
+}
+header .search-Icon .search img {
+  position: absolute;
+  right: 7%;
+  top: 20%;
+}
+::placeholder {
+  color: #fff;
+}
+header .search-Icon a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+main {
+  width: 70vw;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+Ordering {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+Ordering :last-child {
+  margin-bottom: 0;
+}
+
+Ordering h3 {
+  margin: 30px 0 25px 0;
+  text-align: center;
+}
+Ordering p {
+  margin-top: 16px;
+  line-height: 24px;
+  margin: 30px 0 25px 0;
+  text-align: center;
+}
+
+footer {
+  background-color: #000;
+  width: 100%;
+  position: absolute;
+  padding: 5px;
+  bottom: 0;
+ 
+}
+footer .hot-links {
+  display: flex;
+  justify-content: flex-start;
+  gap: 100px;
+  color: #fff;
+  padding: 50px 100px;
+}
+footer .hot-links li {
+  list-style: none;
+  padding: 10px 0px;
+}
+footer .hot-links .footer_col a {
+  text-decoration: none;
+  color: #fff;
+}
+footer .copyright {
+  color: #fff;
+  border-top: 1px solid #fff;
+  padding: 10px 10px;
+}
